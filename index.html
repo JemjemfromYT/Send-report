@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HTML</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "t8yN3ILBMj_emxnHe",
+      });
+   })();
+</script>
+</head>
+<body>
+
+<h3> What is the bug?🦖</h3>
+
+<p>name:</p>
+<input id="nameId" name="name" rows="4" cols="40" placeholder="name"></input>
+<p>message:</p>
+<textarea id="messageId" name="message" rows="5" cols="30"></textarea>
+
+<p id="output"></p>
+
+<button onclick="buttonClick()">send</button>
+
+
+
+
+
+  <script src="main.js"></script>
+</body>
+</html>
